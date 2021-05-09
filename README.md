@@ -1,10 +1,10 @@
 # mre_ef
-This repo shows problem for EF 3.1.14 with SQL Server provider when:
+This repo shows problem for EF 5.0.5 with SQL Server provider when:
 - Owned entity type is used
 - the owned type has property with an Id suffix
 
 This error appears:
-```The properties 'Bar.Id', 'BarUniqueId.BarId' are configured to use 'Identity' value generator and are mapped to the same table 'Bars'. Only one column per table can be configured as 'Identity'. Call 'ValueGeneratedNever' for properties that should not use 'Identity'.```
+```The keys {'BarId'} on 'BarUniqueId' and {'Id'} on 'Bar' are both mapped to 'Bars.PK_Bars' but with different columns ({'BarId'} and {'Id'}).```
 
 although ValueGeneratedNever is applied
 
