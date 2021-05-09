@@ -1,5 +1,5 @@
 # mre_ef
-This repo shows problem when:
+This repo shows problem for EF 3.1.14 with SQL Server provider when:
 - Owned entity type is used
 - the owned type has property with an Id suffix
 
