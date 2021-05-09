@@ -11,3 +11,4 @@ although ValueGeneratedNever is applied
 Note:
 - chaging BarUniqueId.BarId -> BarUniqueId.BarId*k* SOLVES the problem
 - chaging BarUniqueId -> BarUniqueId*k* DOESN'T solve the problem
+- DOESN'T happen with InMemory provider so reproducible with SQL Server
