@@ -12,3 +12,5 @@ Note:
 - chaging BarUniqueId.BarId -> BarUniqueId.BarId*k* SOLVES the problem
 - chaging BarUniqueId -> BarUniqueId*k* DOESN'T solve the problem
 - DOESN'T happen with InMemory provider so reproducible with SQL Server
+- EF 5.0 on .NET5.0 has the same problem as shown on [this branch](/lutofcaku/mre_ef/tree/ef-5.0)
+
